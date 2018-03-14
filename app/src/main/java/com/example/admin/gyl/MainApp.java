@@ -21,7 +21,7 @@ public class MainApp extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
         theApplication = this;
-        activityList = new ArrayList<Activity>();//
+        activityList = new ArrayList<Activity>();
         init();
     }
 
