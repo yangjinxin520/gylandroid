@@ -20,7 +20,7 @@ public class MainApp extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        theApplication = this;//
+        theApplication = this;//..
         activityList = new ArrayList<Activity>();
         init();
     }
